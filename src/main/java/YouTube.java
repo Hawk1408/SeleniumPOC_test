@@ -11,9 +11,9 @@ public class YouTube {
     }
         public static void logIn (WebDriver driver) throws java.lang.Exception{
             driver.findElement(By.xpath("//*[@id=\"buttons\"]/ytd-button-renderer/a")).click();
-            driver.findElement(By.xpath("//*[@id=\"identifierId\"]")).sendKeys("thenarenraizada");
+            driver.findElement(By.xpath("//*[@id=\"identifierId\"]")).sendKeys("");
             RobotMethods.pressEnterAndWait(3000);
-            driver.findElement(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input")).sendKeys("124828cchd");
+            driver.findElement(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input")).sendKeys("");
             RobotMethods.pressEnterAndWait(5000);
         }
         public static void searchVideo(WebDriver driver){
