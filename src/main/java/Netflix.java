@@ -12,11 +12,11 @@ public class Netflix {
         driver.findElement(By.xpath("/html/body/div[1]/div/div[1]/a[2]")).click(); }
 
     public static void netflixUserName(WebDriver driver){
-        driver.findElement(By.xpath("//*[@id=\"id_userLoginId\"]")).sendKeys("6179097436");
+        driver.findElement(By.xpath("//*[@id=\"id_userLoginId\"]")).sendKeys("");
     }
 
     public static void netflixPassword(WebDriver driver){
-        driver.findElement(By.xpath("//*[@id=\"id_password\"]")).sendKeys("R@1zadaash3r");
+        driver.findElement(By.xpath("//*[@id=\"id_password\"]")).sendKeys("");
     }
 
     public static void selectProfile(WebDriver driver){
