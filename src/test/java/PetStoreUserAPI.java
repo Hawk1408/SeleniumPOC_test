@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class PetStoreUserAPI {
     String url = "https://petstore.swagger.io";
 
-    @Test(groups = {"peruser", "petALL"})
+    @Test(groups = {"petuser", "petALL"})
     public void test_ResponseHeaderData_ShouldBeCorrect() {
         RestAssured.baseURI = url;
         Response response =
@@ -26,7 +26,7 @@ public class PetStoreUserAPI {
         System.out.println(response.getStatusCode());
         System.out.println(response.getBody().prettyPrint());
     }
-    @Test(groups = {"peruser", "petALL"})
+    @Test(groups = {"petuser", "petALL"})
     public void test_ResponseHeaderData_ShouldBeCorrectArray() {
         RestAssured.baseURI = url;
         Response response =
@@ -49,7 +49,7 @@ public class PetStoreUserAPI {
         System.out.println(response.getStatusCode());
         System.out.println(response.getBody().prettyPrint());
     }
-    @Test(groups = {"peruser", "petALL"})
+    @Test(groups = {"petuser", "petALL"})
     public void test_ResponseHeaderData_ShouldBeCorrectList() {
         RestAssured.baseURI = url;
         Response response =
@@ -72,7 +72,7 @@ public class PetStoreUserAPI {
         System.out.println(response.getStatusCode());
         System.out.println(response.getBody().prettyPrint());
     }
-    @Test(groups = {"peruser", "petALL"})
+    @Test(groups = {"petuser", "petALL"})
     public void test_ResponseHeaderData_ShouldBeCorrectLogin() {
         RestAssured.baseURI = url;
         Response response =
@@ -83,7 +83,7 @@ public class PetStoreUserAPI {
         System.out.println(response.getStatusCode());
         System.out.println(response.getBody().prettyPrint());
     }
-    @Test(groups = {"peruser", "petALL"})
+    @Test(groups = {"petuser", "petALL"})
     public void test_ResponseHeaderData_ShouldBeCorrectLogOut() {
         RestAssured.baseURI = url;
         Response response =
@@ -94,7 +94,7 @@ public class PetStoreUserAPI {
         System.out.println(response.getStatusCode());
         System.out.println(response.getBody().prettyPrint());
     }
-    @Test(groups = {"peruser", "petALL"})
+    @Test(groups = {"petuser", "petALL"})
     public void test_ResponseHeaderData_ShouldBeCorrectUseName() {
         RestAssured.baseURI = url;
         Response response =
@@ -105,7 +105,7 @@ public class PetStoreUserAPI {
         System.out.println(response.getStatusCode());
         System.out.println(response.getBody().prettyPrint());
     }
-    @Test(groups = {"peruser", "petALL"})
+    @Test(groups = {"petuser", "petALL"})
     public void test_ResponseHeaderData_ShouldBeCorrectUseNamePut() {
         RestAssured.baseURI = url;
         Response response =
@@ -126,7 +126,7 @@ public class PetStoreUserAPI {
         System.out.println(response.getStatusCode());
         System.out.println(response.getBody().prettyPrint());
     }
-    @Test(groups = {"peruser", "petALL"})
+    @Test(groups = {"petuser", "petALL"})
     public void test_ResponseHeaderData_ShouldBeCorrectDelete() {
         RestAssured.baseURI = url;
         Response response =
