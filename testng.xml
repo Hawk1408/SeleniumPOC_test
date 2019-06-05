@@ -8,11 +8,6 @@
             <include name = "petuser" />
         </define>
     </groups>
-    <test name = "testnggroup">
-        <classes>
-            <class name = "TestNG" />
-        </classes>
-    </test>
     <test name = "petstore">
         <classes>
             <class name="PetStoreAPI"></class>
